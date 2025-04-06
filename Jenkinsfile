@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('git checkout'){
             steps{
-                git branch: 'main', credentialsId: 'Github', url: 'https://github.com/PINNINS/Projectptyhon-terraform.git'
+                git branch: 'main', credentialsId: 'Github', url: 'https://github.com/PINNINS/10-MicroService-Appliction.git'
                 
             }
         }
